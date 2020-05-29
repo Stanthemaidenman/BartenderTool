@@ -1,0 +1,26 @@
+import React from 'react';
+import ReactDOM from 'react-dom';
+import { BrowserRouter as Router } from 'react-router-dom';
+import App from './App';
+import Header from './components/Header';
+import Footer from './components/Footer';
+import Search from './components/Search'; 
+import './css/StyleSupportTool.css';
+//import * as serviceWorker from './serviceWorker';
+
+ReactDOM.render(
+    <Router basename="/">
+        <div>
+            <Header />
+            <Search />
+            <div className='content'>
+                <App />
+            </div>
+            <Footer />
+        </div>
+    </Router>, document.getElementById('root'));
+
+// If you want your app to work offline and load faster, you can change
+// unregister() to register() below. Note this comes with some pitfalls.
+// Learn more about service workers: https://bit.ly/CRA-PWA
+//serviceWorker.unregister();

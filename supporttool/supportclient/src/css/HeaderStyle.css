@@ -1,0 +1,14 @@
+﻿* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+header {
+    height: 5em;
+    background-color: #34495E;
+    color: #D5D8DC;
+    padding: 1em 2em;
+}
+
+
+

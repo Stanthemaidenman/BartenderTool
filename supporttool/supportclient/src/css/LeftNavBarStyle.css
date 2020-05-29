@@ -1,0 +1,145 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: Roboto;
+}
+.main-nav {
+    min-height: 1230px;
+    height: 100%;
+    width: 300px;
+    background-color: #232F45;
+    visibility: visible;
+}
+.left-nav {
+    display: flex;
+    width: 100%;
+    height:100%;
+}
+li {
+    margin-bottom: 2px;
+    list-style: none;   
+}
+a {
+    width: 100%;
+    height: 3em;
+    color: #bfc3ce;
+    text-decoration: none;
+    justify-content: center;
+    align-content: center;
+}
+.menu-main-container {
+    display: flex;
+    top: 0;
+    left: 100%;
+    width: 100%;
+    height: 100%;
+    transition-duration: 2s;
+    visibility: visible;
+}
+
+.main-menu-show {
+    width: 100%;
+    /*transition: 0.1s;*/
+    visibility: visible;
+    background-color: #232F45;
+}
+.main-menu-hide {
+    width: 0;
+    height: 0;
+    visibility: hidden;
+}
+.sub-menu-container {
+    visibility: hidden;
+    background-color: #232F45;
+}
+.sub-menu-hide {
+    width: 0;
+    height: 0;
+    visibility: hidden;
+}
+.sub-menu-show {
+    width: 300px;
+    height: auto;
+    visibility: visible;
+}
+.subNavQA {
+    width: 100%;
+    visibility: hidden;
+}
+
+.navButton {
+    height: 3em;
+    width: 100%;
+    width: 300px;
+    background-color: #2A3141;
+    color: #bfc3ce;
+    border: none;
+    padding: 1em 3em;
+    text-align: left;
+    cursor: pointer;
+}
+.navButton:hover {
+    background-color: #34495E;
+}
+.main-nav-link {
+    height: 3em;
+    width: 100%;
+    width: 300px;
+    background-color: #2A3141;
+    color: #bfc3ce;
+    padding: 1em 2.5em;
+}
+.main-nav-link:hover {
+    background-color: #34495E;
+}
+.link-item-content {
+    height: 2em;
+    width: 100%;
+    width: 300px;
+    background-color: #2A3141;
+    color: #bfc3ce;
+    padding: 0.5em 4em;
+    text-align: left;
+}
+.link-item-content:hover {
+    background-color: #34495E;
+}
+.menu-active-area {
+    height: 2em;
+    width: 100%;
+    width: 300px;
+    background-color: #34495E;
+    color: #bfc3ce;
+    padding: 0.5em 4em;
+    text-align: left;
+}
+.search {
+    height: 3em;
+    width: 250px;
+    align-self: center;
+    background-color: #242533;
+    border-radius: 20px;
+    margin: 2em;
+    border: none;
+    background-image: url("../images/search_icon.png");
+    background-size: 16px 18px;
+    background-repeat: no-repeat;
+    background-position: 95% 50%;
+    color: white;
+    padding-left: 1em;
+}
+input:focus {
+    outline: none;
+    background-color: white;
+    color: black;
+}
+.sub-menu-expand-show {
+    visibility: visible;
+    height: auto;
+}
+.sub-menu-expand-hide {
+    visibility: hidden;
+    height: 0;
+}
+
